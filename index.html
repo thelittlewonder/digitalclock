@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+        <title>CLock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="tick()">
+        <div id="wrap">
+            <div id="time"></div>
+            <div id="day"></div>
+        </div>
+        <div id="modify">
+        <button value="#2196F3" onclick="changecolor(this.value)" class="button" id="blue"></button>
+        <button value="#009688" onclick="changecolor(this.value)" class="button" id="teal"></button>
+        <button value="#4CAF50" onclick="changecolor(this.value)" class="button" id="green"></button>
+        <button value="#FF9800" onclick="changecolor(this.value)" class="button" id="orange"></button>
+        <button value="#F44336" onclick="changecolor(this.value)" class="button" id="red"></button>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
