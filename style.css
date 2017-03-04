@@ -1,14 +1,21 @@
 body{
     background-color: #2196F3;
     margin: 0;
+<<<<<<< HEAD
+=======
+    padding: 0;
+>>>>>>> ab2690f8beb76f2f1a8ef31a86478612ecfa5cda
 }
 
 .button:hover{
     cursor: pointer;
 }
 #wrap{
-    margin-top: 25%;
-    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #day{
@@ -25,11 +32,12 @@ body{
 }
 
 #modify{
-    width: 400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: absolute;
     bottom: 0;
-    left: 50%;
-    margin-left: -200px;
     margin-bottom: 10px;
 }
 
