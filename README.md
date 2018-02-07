@@ -1,2 +1,2 @@
 # DigitalClock using VanillaJS
-### [Live Demo](http://abhisheksharma.design/digitalclock)
+### [Live Demo](http://littlewonder.github.io/digitalclock)
